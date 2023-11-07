@@ -1,0 +1,166 @@
+<!-- resume.html -->
+<!-- base.html -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Asaf Bilker - Resume</title>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Link to Bootstrap CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation menu -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="d-flex flex-wrap align-items-center justify-content-between">
+        <!-- Add the logo image -->
+        <div class="logo">
+            <a href="/" id="logo-img" class="custom-logo-link" rel="home">
+                <img class="site-logo" src="/static/img/logo.png" alt="Asaf Bilker">
+            </a>
+        </div>
+
+        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            <li>
+                <a href="/"
+                   class="nav-link text-white ">
+                    <i class="fa-solid fa-house me-1"></i>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="/resume"
+                   class="nav-link text-white active">
+                    <i class="fa-solid fa-file-alt me-1"></i>
+                    Resume
+                </a>
+            </li>
+            <li>
+                <a href="/projects"
+                   class="nav-link text-white ">
+                    <i class="fa-solid fa-project-diagram me-1"></i>
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a href="/skills"
+                   class="nav-link text-white ">
+                    <i class="fa-solid fa-lightbulb me-1"></i>
+                    Skills
+                </a>
+            </li>
+            <li>
+                <a href="/about_myself"
+                   class="nav-link text-white ">
+                    <i class="fa-solid fa-info-circle me-1"></i>
+                    About Myself
+                </a>
+            </li>
+            <li>
+                <a href="/contact"
+                   class="nav-link text-white ">
+                    <i class="fa-solid fa-envelope me-1"></i>
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main content -->
+<div class="container">
+    
+<!-- Main content -->
+<article class="resume-page">
+    <!-- Resume heading -->
+    <div class="resume-heading">
+        <h1 class="entry-title custom-heading page-heading"><span class="hide-title"><span>Resume</span></span></h1>
+        <div class="resume-download">
+            <a href="/static/documents/resume.pdf" target="_blank">View Full Resume</a>
+        </div>
+    </div>
+
+    <!-- About Myself section -->
+    <h2>About Myself</h2>
+    <p>2nd year ambitious Computer Science student at Tel Aviv University with two years of experience in web development and gaming fields. Possessing excellent programming and analytical skills.</p>
+    <p>Looking for a software developer student position to contribute to the company with the skills I've acquired. Experienced in developing complete websites from scratch, including both front-end (HTML, CSS, JavaScript) and back-end (Python, Flask, Java) development. I also have experience with UI/UX design, and I'm able to create intuitive and visually appealing user interfaces.</p>
+    <p>Before I began my studies at Tel Aviv University, I studied at the Open University of Israel as a student in a program called "Transfer Pathway" or "Afik Maavar". I completed the program successfully, achieving a GPA of 89. </p>
+    <!-- Experiences section -->
+    <h2>Experiences</h2>
+    <h3>Asaf Bilker, Web Developer</h3>
+    <p>2022 – Present</p>
+    <ul>
+        <li>Developed responsive websites using Python, Flask, HTML, CSS, and JavaScript for optimal user experience.
+        </li>
+        <li>Designed user interfaces and user experiences for websites.</li>
+        <li>Troubleshot and resolved issues with a creative approach to problem-solving.</li>
+    </ul>
+
+    <h3>Rehovot, Handball Player</h3>
+    <p>2016 – Present</p>
+    <ul>
+        <li>Professional handball player currently playing for H.C Rehovot.</li>
+        <li>Developed teamwork, efficiency under high pressure, determination, and goal achievement skills.</li>
+    </ul>
+
+    <!-- Military Service section -->
+    <h3>Military Service, Intelligence section</h3>
+    <p>2016-2019</p>
+    <ul>
+        <li>Served as an Outstanding Sportsman in the intelligence section.</li>
+    </ul>
+
+    <!-- Education section -->
+    <h2>Education</h2>
+    <h3>Tel Aviv University, Computer Science</h3>
+    <p>2021 - Present</p>
+    <p>GPA - 89</p>
+    <p>Introduction to Computer Science and Java</p>
+    <p>Data Structures and Introduction to Algorithms</p>
+    <h3>׳HaAmit׳ High School, Biology</h3>
+    <p>2014 – 2017</p>
+    <p>5 Biology units 5 English units</p>
+
+    <!-- Languages section -->
+    <h2>Languages</h2>
+    <p>English - Near-native, Hebrew - Native</p>
+
+    <!-- Skills section -->
+    <h2>Skills</h2>
+    <p>Git, Linux, Algorithm Design & Analysis, Data Structures, Searching Algorithms, Sorting Algorithms, Algorithms,
+        HTML & CSS</p>
+
+    <!-- Programming Languages section -->
+    <h2>Programming Languages</h2>
+    <p>Python, JavaScript, Java, C, SQL</p>
+</article>
+
+</div>
+
+<!-- Footer -->
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Created by Asaf Bilker</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <!-- Add a class to the LinkedIn icon for custom styling -->
+        <li class="ms-3 linkedin-icon">
+            <a class="text-body-secondary" href="https://www.linkedin.com/in/asaf-bilker" target="_blank">
+                <i class="fa-brands fa-linkedin fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+</footer>
+
+<!-- Link to Bootstrap JS -->
+<script src="/static/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
